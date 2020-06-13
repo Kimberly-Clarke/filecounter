@@ -15,8 +15,9 @@ while True:
       print(p,"\n\n")
       continue
    elif enter_file == "q" or enter_file == "Q":
-      print("exiting..")
+      print("exiting.",end="")
       time.sleep(1)
+      print(".")
       break
    else:
       print("Invalid choice!\n")
